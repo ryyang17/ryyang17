@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "chips"
 ICON_URL = "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/{}.svg"
 FONT = "Segoe UI, Ubuntu, Helvetica, Arial, sans-serif"
-CHIP_COLOURS = ["#E2542F", "#F4795B", "#ED8B66", "#7FA36B"]  # cycles along each row
+CHIP_COLOURS = ["#D6762A", "#E8913F", "#F0A868", "#7FA36B"]  # cycles along each row
 GREY = "#8b949e"
 
 # (row label, petal colour, centre colour, chips)
@@ -32,7 +32,7 @@ STACK = [
         ("localllm", None, "Local LLMs",
          "Privacy-friendly, on-device language models: BlendSmart AI gives personalised nutrition advice without any data leaving the machine."),
     ]),
-    ("FRONTEND", "#EEA53A", "#D98828", [
+    ("FRONTEND", "#F0B484", "#D98828", [
         ("react", "react", "React",
          "Component-based UI library, used for the TripWise trip-planning, itinerary and budget app."),
         ("nextjs", "nextdotjs", "Next.js",
@@ -46,7 +46,7 @@ STACK = [
         ("html5", "html5", "HTML / CSS",
          "The foundation of every web project, from static sites to fully designed landing pages."),
     ]),
-    ("BACKEND", "#F4795B", "#E2542F", [
+    ("BACKEND", "#E8913F", "#C46A1F", [
         ("java", "openjdk", "Java",
          "Object-oriented, strongly typed language, used for the TripWise REST API."),
         ("springboot", "springboot", "Spring Boot",
@@ -60,7 +60,7 @@ STACK = [
         ("kotlin", "kotlin", "Kotlin",
          "Modern language for Android: used for AppetIT, a self-service ordering system for restaurants."),
     ]),
-    ("DATA / CLOUD", "#E86F9E", "#C64C7C", [
+    ("DATA / CLOUD", "#CC9060", "#A8703F", [
         ("postgresql", "postgresql", "PostgreSQL",
          "Reliable open-source relational database, the default choice for structured application data."),
         ("sqlserver", "microsoftsqlserver", "SQL Server",
@@ -70,7 +70,7 @@ STACK = [
         ("vercel", "vercel", "Vercel",
          "Deployment platform for Next.js apps: preview deployments for every change and zero-config hosting."),
     ]),
-    ("TOOLS / OPS", "#9986D4", "#7361BE", [
+    ("TOOLS / OPS", "#6B6B6B", "#3B3B3B", [
         ("docker", "docker", "Docker",
          "Containers package code together with its environment: build once, run anywhere. The unit of deployment for modern services."),
         ("git", "git", "Git",

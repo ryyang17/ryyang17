@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 env:
-  BASE: https://streak-stats.demolab.com/?user=ryyang17&hide_border=true&background=00000000&ring=F4795B&fire=F4795B&currStreakLabel=F4795B
+  BASE: https://streak-stats.demolab.com/?user=ryyang17&hide_border=true&background=00000000&ring=E8913F&fire=E8913F&currStreakLabel=E8913F
 
 jobs:
   bake:
